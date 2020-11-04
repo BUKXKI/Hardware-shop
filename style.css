@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+header {
+  position: fixed;
+  display: flex;
+  width: 100%;
+  background: #292424;
+  height: 70px;
+}
+.header-logo {
+  font-size: 30px;
+  font-family: "Agency FB", arial;
+  color: rgb(242, 235, 235);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  left: 19.6%;
+  top: 26.5px;
+  z-index: 3;
+}
+nav {
+  margin-top: 2px;
+  margin-left: 56.5%;
+}
+.topnav img {
+  margin-left: 10px; /* Отступ справа */
+  margin-top: 33px; /* Отступ снизу */
+
+  width: 19px;
+  height: 18px;
+  z-index: 14;
+}
+.topnav a {
+  font-size: 24px;
+  font-family: "Agency FB", arial;
+  color: rgb(242, 235, 235);
+}
+.topnav p {
+  position: relative;
+  font-size: 16px;
+  font-family: "Myriad Pro", regular;
+  color: rgb(242, 235, 235);
+  margin-left: 10px;
+}
+
+.textd {
+  text-decoration: underline;
+  font-size: 16px;
+  margin-left: 10px;
+}
+.textd:hover {
+  text-decoration: none;
+  border-bottom: 2px solid #cabc59;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+}
+main .welcome {
+  background: #292424;
+  height: 1080px;
+}
+main .welcome h1 {
+  font-size: 45px;
+  font-family: "Myriad Pro", regular;
+  color: rgb(242, 235, 235);
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  left: 695.935px;
+  top: 211px;
+  z-index: 19;
+}
+main .welcome h2 {
+  font-size: 24px;
+  font-family: "Myriad Pro";
+  color: rgb(242, 235, 235);
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  left: 894.937px;
+  top: 287.6px;
+  z-index: 20;
+}
+main .welcome p {
+  font-size: 18px;
+  font-family: "Myriad Pro";
+  color: rgb(242, 235, 235);
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  left: 672.768px;
+  top: 345.968px;
+  z-index: 21;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+  left: 464px;
+  top: 122px;
+  width: 910px;
+  height: 481px;
+  z-index: 5;
+}
+.container img {
+  width: 100%;
+  height: auto;
+}
+.container .btn {
+  position: absolute;
+  top: 278px;
+  left: 355px;
+  background: transparent;
+  color: #ffffff;
+  border: 6px solid #f1d82c;
+  font-size: 27px;
+  font-family: "Myriad Pro", regular;
+  letter-spacing: 2px;
+  padding: 5px 0px;
+  text-transform: uppercase;
+  cursor: pointer;
+  display: inline-block;
+  margin: 15px 30px;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+  width: 300px;
+  height: 107px;
+}
+.container .btn:hover {
+  background-color: #f1d82c;
+}
